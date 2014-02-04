@@ -240,6 +240,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj">
+      <Project>{4ea2f979-481a-44c8-aa8a-3288312793ee}</Project>
+      <Name>Core.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj">
       <Project>{24138c33-ba32-49df-9e3e-87503fc7f057}</Project>
       <Name>Core.Infrastructure</Name>
